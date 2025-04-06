@@ -1,0 +1,97 @@
+#s1 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#s1 .container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#s1 input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#s1 .logo {
+    width: 50px; /* Ajusta el tamaño según necesites */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#s1 button {
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#s1 button:hover {
+    background: darkred;
+}
+
+#s1 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#s2 .container {
+    display: flex;
+    width: 100%;
+}
+
+#s2 .sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #800000; /* Rojo oscuro */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+#s2 .sidebar h2 {
+    text-align: center;
+}
+
+#s2 .sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#s2 .sidebar ul li {
+    margin: 20px 0;
+}
+
+#s2 .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#s2 .sidebar ul li a:hover {
+    background: #A52A2A;
+}
+
+#s2 .content {
+    margin-left: 270px; /* Espacio para el menú */
+    padding: 20px;
+    width: 100%;
+}

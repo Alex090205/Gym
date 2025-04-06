@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Gimnasio</title>
+    <link rel="stylesheet" href="estilogym.css">
+</head>
+<body id="s1">
+
+    <div class="container">
+        <img src="logospartan.png" alt="Logo Gimnasio" class="logo">
+        <h2>Registro</h2>
+        <form id="registroForm">
+            <input type="text" name="usuario" placeholder="Usuario" required>
+            <input type="password" name="contrasena" placeholder="Contraseña" required>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("registroForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evita que el formulario se envíe a un servidor
+            window.location.href = "inicio.html"; // Redirige a la página de inicio
+        });
+    </script>
+
+</body>
+</html>
